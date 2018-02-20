@@ -8,7 +8,10 @@ public class Cat extends Animal{
     }
 
     public Cat(String name, Gender gender, String badHabits) {
+        super(name, gender);
+        BadHabits = badHabits;
     }
+
     @Override
     public String toString()
     {
