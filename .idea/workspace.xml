@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c300906-04b8-495b-93fa-37186dfd6148" name="Default" comment="updated">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UserInterface/AnimalShelterApp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Animals/AnimalTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Animals/CatTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Animals/DogTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Animals/ReservorTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReservationTest.java" />
+    <list default="true" id="2c300906-04b8-495b-93fa-37186dfd6148" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelter.iml" afterPath="$PROJECT_DIR$/AnimalShelter.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface/AnimalApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/animals/Animal.java" afterPath="$PROJECT_DIR$/src/main/java/com/animals/Animal.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/animals/Gender.java" afterPath="$PROJECT_DIR$/src/main/java/com/animals/Gender.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/animals/Dog.java" afterPath="$PROJECT_DIR$/src/main/java/com/animals/Dog.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReservationTest.java" afterPath="$PROJECT_DIR$/src/test/java/ReservationTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,6 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/animals/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Gender.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/animals/Gender.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReservationTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReservationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReservationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
+            <state relative-caret-position="335">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
@@ -100,7 +95,7 @@
       <file leaf-file-name="DogTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Animals/DogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="353">
               <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReservorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReservorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Animals/ReservorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -141,16 +136,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/javafx-src.zip!/javafx/application/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="304" column="25" lean-forward="false" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -174,7 +159,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/animals/dog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/animals/Reservor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/animals/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reservation.java" />
         <option value="$PROJECT_DIR$/src/main/java/bas/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
@@ -184,12 +168,13 @@
         <option value="$PROJECT_DIR$/src/main/java/UserInterface/AnimalShelterApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/animals/Gender.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ReservationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/animals/Animal.java" />
         <option value="$PROJECT_DIR$/src/test/java/Animals/CatTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Animals/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Animals/DogTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Animals/ReservorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/animals/Dog.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ReservationTest.java" />
       </list>
     </option>
   </component>
@@ -449,7 +434,7 @@
       <workItem from="1519120803530" duration="10987000" />
       <workItem from="1519199257041" duration="14000" />
       <workItem from="1519831499787" duration="1001000" />
-      <workItem from="1520261624495" duration="7095000" />
+      <workItem from="1520261624495" duration="7846000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1517925966208</created>
@@ -493,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519831600165</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="unit tests done">
+      <created>1520327393753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520327393753</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23219000" />
+    <option name="totallyTimeSpent" value="23970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="976" height="1038" extended-state="0" />
@@ -541,7 +533,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="unit tests done" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit tests done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -558,7 +551,7 @@
             <element signature="e#222#223#0" expanded="false" />
             <element signature="e#285#286#0" expanded="false" />
             <element signature="e#331#332#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#407#408#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,7 +642,7 @@
             <element signature="e#222#223#0" expanded="false" />
             <element signature="e#285#286#0" expanded="false" />
             <element signature="e#331#332#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#407#408#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -740,7 +733,7 @@
             <element signature="e#222#223#0" expanded="false" />
             <element signature="e#285#286#0" expanded="false" />
             <element signature="e#331#332#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#407#408#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -806,21 +799,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bas/main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/bas/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/UserInterface/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/animals/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#185#186#0" expanded="false" />
-            <element signature="e#222#223#0" expanded="false" />
-            <element signature="e#285#286#0" expanded="false" />
-            <element signature="e#331#332#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -906,18 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ReservationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/animals/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -953,9 +919,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Animals/ReservorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/animals/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Animals/DogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="353">
           <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -963,12 +947,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Animals/ReservorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ReservationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -24,6 +24,6 @@ public class ReservationTest {
     {
         assertEquals(0, this.reservation.Animals.size());
         this.reservation.NewDog("hond", Gender.Male);
-        assertEquals(0, this.reservation.Animals.size());
+        assertEquals(1, this.reservation.Animals.size());
     }
 }

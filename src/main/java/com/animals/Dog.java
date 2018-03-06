@@ -16,6 +16,7 @@ public class Dog extends Animal {
 
     public Dog(String name, Gender gender) {
         super(name, gender);
+        this.LastWalk = LocalDate.now();
     }
     @Override
     public String ToString()
