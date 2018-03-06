@@ -1,4 +1,5 @@
 package UserInterface;
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -6,8 +7,13 @@ import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class AnimalApp {
+public class AnimalShelterApp extends Application {
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Hello World");
         GridPane grid = new GridPane();
