@@ -29,7 +29,8 @@ public class Animal {
         }
         return false;
     }
-    public String ToString()
+    @Override
+    public String toString()
     {
         String reserved = "not reserved";
         if (this.reservedBy != null)

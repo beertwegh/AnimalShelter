@@ -19,9 +19,9 @@ public class Dog extends Animal {
         this.LastWalk = LocalDate.now();
     }
     @Override
-    public String ToString()
+    public String toString()
     {
-        return super.ToString() +
+        return super.toString() +
                 ", last walk:  "+this.LastWalk.toString();
     }
 }

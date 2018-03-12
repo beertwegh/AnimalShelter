@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.animals.Gender?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+        <Button fx:id="btnAddAnimal" layoutX="41.0" layoutY="423.0" mnemonicParsing="false" onAction="#AddAnimal" text="Add Animal" />
+        <ComboBox fx:id="cmbSpecies" layoutX="24.0" layoutY="26.0" onAction="#cmbSpeciesChanged" prefWidth="150.0" promptText="Species">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Cat" />
+                    <String fx:value="Dog" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+      <TextField fx:id="txtName" layoutX="24.0" layoutY="94.0" promptText="Name" />
+      <ComboBox fx:id="cmbGender" layoutX="24.0" layoutY="161.0" prefWidth="150.0" promptText="Gender">
+          <items>
+              <FXCollections fx:factory="observableArrayList">
+                  <Gender fx:value="Male" />
+                  <Gender fx:value="Female" />
+              </FXCollections>
+          </items>
+      </ComboBox>
+      <TextField fx:id="txtBadHabits" layoutX="24.0" layoutY="208.0" promptText="Bad Habits" />
+      <ListView id="lstAnimals" fx:id="lstAnimals" layoutX="416.0" layoutY="61.0" onMouseClicked="#lstAnimalsClicked" prefHeight="294.0" prefWidth="306.0" />
+      <TextField fx:id="txtReserve" layoutX="428.0" layoutY="392.0" promptText="Reserve Animal : Name" />
+      <Button fx:id="btnReserveAnimal" layoutX="629.0" layoutY="392.0" mnemonicParsing="false" onAction="#ReserveAnimal" text="Reserve Animal" />
+    </children>
+</AnchorPane>
